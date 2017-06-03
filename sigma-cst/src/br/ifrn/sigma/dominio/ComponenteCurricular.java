@@ -11,6 +11,17 @@ public class ComponenteCurricular {
 	public ComponenteCurricular() {
 		super();
 	}
+	
+	
+	public ComponenteCurricular(int id, String nome, int creditos, String ementa, int semestre) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.creditos = creditos;
+		this.ementa = ementa;
+		this.semestre = semestre;
+	}
+
 
 	public int getId() {
 		return id;
